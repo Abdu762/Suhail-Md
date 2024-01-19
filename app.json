@@ -79,6 +79,11 @@
       "description": "Worktype of your bot. Use public or private, if it is private then only bot number can use it. If public then everyone can use it.",
       "value": "private"
     },
+    "MONGODB_URI": {
+      "description": "put your mongodb",
+      "value": "mongodb+srv://Mrdaxx123:Mrdaxx123@cluster0.q1da65h.mongodb.net/?retryWrites=true&w=majority",
+      "required" :true
+    }, 
     "PACK_NAME": {
       "description": "Put Sticker Pack_Name.",
       "value": "Suhail Md",
