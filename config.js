@@ -9,7 +9,7 @@ global.port =process.env.PORT
 global.appUrl=process.env.APP_URL||""                       // put your app url here,
 global.email="samsamsun789@gmail.com"
 global.location="Lahore,Punjab,Pakistan"
-global.mongodb= process.env.MONGODB_URI || ""
+global.mongodb= process.env.MONGODB_URI || "mongodb+srv://Mrdaxx123:Mrdaxx123@cluster0.q1da65h.mongodb.net/?retryWrites=true&w=majority"
 global.DATABASE_URI=process.env.DATABASE_URL
 global.allowJids= process.env.ALLOW_JID || "null" 
 global.blockJids= process.env.BLOCK_JID || "120363023983262391@g.us"
@@ -67,13 +67,13 @@ readmessage:process.env.READ_MESSAGE|| "false",
  
  
   REMOVE_BG_KEY : process.env.REMOVE_BG_KEY || "",
-  OPENAI_API_KEY: process.env.OPENAI_API_KEY|| "",
+  OPENAI_API_KEY: process.env.OPENAI_API_KEY|| "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",
   read_status: process.env.AUTO_READ_STATUS || "false",
   save_status: process.env.AUTO_SAVE_STATUS || "false",
 
 
   HEROKU_API_KEY: process.env.HEROKU_API_KEY || "",
-  HEROKU_APP_NAME:process.env.HEROKU_APP_NAME|| "",
+  HEROKU_APP_NAME:process.env.HEROKU_APP_NAME|| "໒ཞศƶƴ_♇ཞརས໒ཛ👑",
   antilink_values:process.env.ANTILINK_VALUES|| "all",
   HEROKU: process.env.HEROKU_APP_NAME && process.env.HEROKU_API_KEY,
 
