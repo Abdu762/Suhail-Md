@@ -33,7 +33,7 @@ global.style = process.env.STYLE || "5",  // put '1' to "5" here to check bot st
 
 global.devs = "923184474176" // Developer Conatact
 global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "null";
-global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "923184474176";
+global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "237694268225";
 
 module.exports = {
 
@@ -41,16 +41,16 @@ module.exports = {
   //style:process.env.STYLE|| "2",  // put '1' & "2" here to check bot styles
 
 
-  HANDLERS:process.env.PREFIX || ".",
+  HANDLERS:process.env.PREFIX || "#",
   BRANCH: process.env.BRANCH  || "main",
   VERSION:process.env.VERSION || "v.1.2.7-qr",
-  caption:process.env.CAPTION || "©sᴜʜᴀɪʟ²²¹-ᴍᴅ" , // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ sᴜʜᴀɪʟ²²¹-ᴍᴅ 』```", //*『sᴜʙsᴄʀɪʙᴇ • sᴜʜᴀɪʟ ᴛᴇᴄʜ』*\n youtube.com/@suhailtechinfo0"),
+  caption:process.env.CAPTION || "𝒉𝒕𝒕𝒑𝒔://ī.𝒂𝒎/𝑪𝒓𝒂𝒛𝒚-𝒑𝒓𝒊𝒏𝒄𝒆.𝒄𝒐𝒎" , // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ sᴜʜᴀɪʟ²²¹-ᴍᴅ 』```", //*『sᴜʙsᴄʀɪʙᴇ • sᴜʜᴀɪʟ ᴛᴇᴄʜ』*\n youtube.com/@suhailtechinfo0"),
 
  
-  author: process.env.PACK_AUTHER || "Suhail-MD",
-  packname: process.env.PACK_NAME || "♥️",
-  botname : process.env.BOT_NAME  || "sᴜʜᴀɪʟ-ᴍᴅ",
-  ownername:process.env.OWNER_NAME|| "It'x Suhail",
+  author: process.env.PACK_AUTHER || "໒ཞศƶƴ_♇ཞརས໒ཛ👑",
+  packname: process.env.PACK_NAME || "𝒉𝒕𝒕𝒑𝒔://ī.𝒂𝒎/𝑪𝒓𝒂𝒛𝒚-𝒑𝒓𝒊𝒏𝒄𝒆.𝒄𝒐𝒎",
+  botname : process.env.BOT_NAME  || "໒ཞศƶƴ_♇ཞརས໒ཛ👑",
+  ownername:process.env.OWNER_NAME|| "໒ཞศƶƴ_♇ཞརས໒ཛ👑",
 
 
   sessionName:process.env.SESSION_ID|| "",  // PUT SESSION ID HERE 
@@ -63,7 +63,7 @@ module.exports = {
   KOYEB_API: process.env.KOYEB_API  || "false",
 readmessage:process.env.READ_MESSAGE|| "false",
  aitts_Voice_Id:process.env.AITTS_ID|| "37",
- alwaysonline:process.env.WAPRESENCE|| "unavailable", // 'unavailable' | 'online' | 'composing' | 'recording' | 'paused'
+ alwaysonline:process.env.WAPRESENCE|| "recording", // 'unavailable' | 'online' | 'composing' | 'recording' | 'paused'
  
  
   REMOVE_BG_KEY : process.env.REMOVE_BG_KEY || "",
@@ -80,7 +80,7 @@ readmessage:process.env.READ_MESSAGE|| "false",
 
   ELEVENLAB_API_KEY: process.env.ELEVENLAB_API_KEY || "",
   WORKTYPE: process.env.WORKTYPE || process.env.MODE || "private",
-  LANG: process.env.THEME ? process.env.THEME.toUpperCase() : "SUHAIL",
+  LANG: process.env.THEME ? process.env.THEME.toUpperCase() : "GOKOU",
 
 };
 
